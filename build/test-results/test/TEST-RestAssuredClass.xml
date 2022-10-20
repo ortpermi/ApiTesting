@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RestAssuredClass" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-20T08:55:10" hostname="GFI10059" time="4.969">
+  <properties/>
+  <testcase name="LoginRequestTest()" classname="RestAssuredClass" time="4.969"/>
+  <system-out><![CDATA[2022-10-20T10:55:09,014 [Test worker] INFO  (BaseTest.java:27) - Iniciando la configuracion
+2022-10-20T10:55:10,020 [Test worker] INFO  (ApplicationProperties.java:22) - Property application-dev.properties
+2022-10-20T10:55:10,023 [Test worker] INFO  (ApplicationProperties.java:22) - Property application-dev.properties
+2022-10-20T10:55:10,105 [Test worker] INFO  (BaseTest.java:29) - Configuracion exitosa
+Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "eve.holt@reqres.in",
+    "password": "cityslicka"
+}
+HTTP/1.1 200 OK
+Date: Thu, 20 Oct 2022 08:54:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 29
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8o%2B4r7iLm0qWF9x9vQqIEYf3EUKQvY0%2BdwlScH5teTQ%2FVFXU2O2l6%2FIplLePlfKWAFvijp2BOhoWti2Q2ZmO4LfUAu3NPHOrWsMB3Xk8KgjkPkzLCBMZDQg3vA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 75d0878c9bc066a1-MAD
+
+{
+    "token": "QpwL5tke4Pnpja7X4"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
